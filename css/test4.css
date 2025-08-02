@@ -1,0 +1,33 @@
+i{
+    font-size: 40px;
+    color: chocolate;
+}
+
+/* a{
+    text-decoration: none;
+    font-size: 40px;
+} */
+
+a:link{
+    color: chocolate;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active{
+    color:black
+}
+/* 
+a:visited{
+    color: chocolate;
+} */
+
+
+.liste{
+    list-style-type:circle;
+
+}

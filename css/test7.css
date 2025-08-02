@@ -1,0 +1,32 @@
+ul{
+    list-style-type:none;
+    position: fixed;
+    width: 100%;
+    background-color:rgb(145, 151, 151) ;
+}
+
+ul>li{
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    /* background-color: rgb(145, 151, 151); */
+    margin-right: 30px;
+    margin-left: -47px;
+    text-align: center;
+
+}
+
+ul>li>a:hover{
+    color: rgb(7, 7, 70);
+    transition: 0.5s;
+}
+
+ul>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+i{
+    padding-right: 10px;
+}

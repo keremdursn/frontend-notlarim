@@ -1,0 +1,30 @@
+-------------------------DERS1.HTML-----------
+
+css i dahil etme 3 yötem
+1-etiket kullanarak 
+2- style etiketleri ile
+3- harici bir css dosyası ile 
+
+3.yöntem : head tagının içinde link etiketi ile
+
+yorum satırı: /*    */
+
+
+renk verme yöntemleri
+
+color picker aratıp bulabilir 	
+
+color:#buraya_kodu tabi bu style etiketi içinde
+
+Background Properties: background-color
+resimde koyabiliriz burada, background-image:url(sss.png)
+
+Border and Radius Using: 
+-kalınlığı
+-tipi
+-rengi 
+birde ek olarak     border-radius: 5px; ovallik veriyor
+
+Width and Height:
+
+

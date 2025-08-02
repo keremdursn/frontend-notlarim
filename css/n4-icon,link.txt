@@ -1,0 +1,13 @@
+-------------------------DERS4.HTML-----------
+İcon ekleme:
+fontawesome.com iconları alma yeri
+cdnjs fontawesome classları alma yeri
+
+Link Durumları:
+a:link = ilk hali ziyaret edilmemiş
+Hover: üzerine geldiğimde
+Avtive: üzerine tıklanıldığında
+Visited: site ziyaret edildikten sonra
+
+Litenin iconlarını değiştirme:
+list-style-type:decimal; bu kodla css içinde

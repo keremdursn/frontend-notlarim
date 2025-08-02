@@ -1,0 +1,22 @@
+-------------------------DERS2.HTML-----------
+
+Margin Property:
+-margin: divler veya divle başka şeyler arasındaki boşluğu
+(top,bottom,left,right....)
+-border: divin dışındaki çerçeve
+-padding: div ile içerik arasındaki boşluğu
+-content: içerik
+
+Text & Font Özellikleri
+-color
+-background-color
+-text-align: metnin nerede olcağı 
+-font-weight: kalınlığı 
+-font-family: yazı tipi
+-font-style: italic , normal
+-text-transform: büyük küçük harf çevirme
+-letter-spacing: harfler arası boşluk
+-text-decoration: yazının altını çizme
+-word-spacing: kelime arası boşluk
+
+

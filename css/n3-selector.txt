@@ -1,0 +1,11 @@
+-------------------------DERS3.HTML-----------
+Selectors:
+tek başına * bütün elementleri değiştirir
+elementin adını verirsen o elementlerin hepsi
+p,h3{ } şeklinde etiketleri yazabiliriz
+div p {} divin içindeki tüm p leri
+div>p annesi div olan tüm p ler
+div + p div den sonraki ilk p
+div ~ p div den sonraki p ler
+div>p:first-child annesi div olan p lerden ilk çocuğu seç
+.div2>ul>li:nth-child(2)

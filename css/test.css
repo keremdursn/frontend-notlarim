@@ -1,0 +1,49 @@
+.test {
+    border: 5px;
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.img {
+    background-image: url(background-5.png);
+    background-position: center;
+    background-size:cover ;
+    width: 300px;
+    height: 300px;
+
+}
+
+.kutu{
+    background-color: lightblue;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    border: 2px solid red;
+}
+
+.kutu2{
+    background-color: gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+.ders2{
+    background-color: rgb(202, 230, 101);
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+    margin-block-end: 40px;
+}
+
+.h3{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.p{
+    padding-left: 10px;
+}

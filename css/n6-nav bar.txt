@@ -1,0 +1,11 @@
+-------------------------DERS6.HTML ve DERS7.HTML------------------
+
+Vertical Menu-Nav Bar:
+css kodlarına bak htmlde sadece liste açıp
+css te şekillendirdik icon kullandık ekstra
+
+DERS7.HTML:
+Horizontal Menu Bar:
+aynı kodları değiştirerek yapıcam
+li ler inline etiket ul etrafında old için block oluyo ve yana yana gelemez
+bunları inline-block etiket yaparsam yanyana gelir

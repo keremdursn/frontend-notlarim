@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>İlk HTML Belgesi</title>
+
+        <style>
+            #canv{
+                border:1px solid red;
+            }
+        </style>
+    </head>
+<nav>
+  <h2>Menu</h2>
+  <ul>
+    <li><a href="http://www.dogus.edu.tr">DOGUS ÜNİVERSİTESİ</a></li>
+    <li><a href="http://www.boun.edu.tr">BOĞAZİÇİ ÜNİVERSİTESİ</a></li>
+    <li><a href="http://www.sabanciuniv.edu.tr">SABANCI ÜNİVERSİTESİ</a></li>
+  </ul>
+</nav>
+    <body>
+        <canvas id="canv" width="150" height="100"></canvas>
+
+        <canvas id="c"></canvas>
+            <script>
+            var canvas = document.getElementById("c"),
+            context = canvas.getContext("2d");
+            context.fillStyle = 'blue';
+            context.fillRect(10, 20, 150, 100);
+            </script>
+
+        <h2>Web Sayfası İçeriği</h2>
+
+<article>
+            <section>
+            Borsa Haberleri
+            </section>
+      </article>
+
+<article>
+            <section>
+             Politik Haberler
+            </section>
+      </article>
+
+<figure>
+  <img src="GoogleLogo.png" alt="logo" />
+
+  <figcaption>
+    <a href="http://google.com/logo.png">
+    Google Logo</a>, daha fazla bilgi için web sayfasını ziyaret ediniz.
+  </figcaption>
+</figure>
+
+<video height="200" width="400" controls>
+    <source src="deneme.mp4" type="video/mp4">
+</video>
+
+<div>
+    <audio controls id="ses1" width="420">
+      <source src="deneme.mp4" type="audio/wav">
+    </audio>
+  </div>
+
+  <iframe src="html5-3.html" height="200" width="300" title="Iframe Example"></iframe>
+
+<footer>
+  <h3 id="yazar">Geleceği Yazanlar</h3>
+</footer>
+
+</p>
+    </body>
+</html>

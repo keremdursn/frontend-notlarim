@@ -1,0 +1,16 @@
+-------------------------DERS5.HTML-----------
+Table Özellikleri:
+border:
+border-collaps: çiftlemeleri kaldırıyo
+
+Z-Index Property:
+iki tane elementin üst üste geçmesini sağlıyo;
+    position: absolute;
+    z-index: -1; içine girsiin diye bi basamak aşağıdan başla
+    top: 0px; resim yukardan boşluk bırakmasın
+
+Overflow Property:
+divin içinde TAŞMALAR vs olduğunda
+overflow: visible = taşmayı açar
+overflow:hidden = saklama yapar
+overflow:auto = gerektiğinde scroll ekler

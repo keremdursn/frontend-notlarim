@@ -1,0 +1,53 @@
+HTML5 :
+
+html5-2
+
+<article> etiketi
+<aside> etiketi genellikle bu kısım sidebar olarak da isimlendirilir
+<header> etiketi, sayfanın başlığını
+<hgroup> etiketi birden çok başlığı bir başlık
+<figure> etiketi
+   <figcaption> etiketi görsel hakkında ilave bilgi
+<footer> dipnot) kısmı
+
+<nav> sayfa üzerinde dolaşma menüsünün tanımı 
+
+<section> sayfanın çeşitli kısımlarını birbirinden ayırmak
+
+<audio> ses içeriğini tanımlamak için
+<video>
+<source>
+<embed> (eklenti) taşıyıcıyı tanımlamak
+
+<canvas> elemanını, özellikle JavaScript kullanarak, farklı çizimler yaratmak için
+  id: JavaScript canvas elemanına erişebilmesi için
+  width: canvas genişliği
+  height: canvas yüksekliği 
+
+	<canvas id="c"></canvas>
+	<script>
+	var canvas = document.getElementById("c"),
+	context = canvas.getContext("2d");
+	context.fillStyle = 'blue';
+	context.fillRect(10, 20, 200, 100);
+	</script>
+
+nasıl "doğru" çizileceği
+
+html5-3
+
+moveTo(x,y):başlangıç noktası
+lineTo(x,y):bitiş noktası
+stroke(): Doğruyu çizer.
+
+svg elemanı  genellikle sütun grafiği (bar chart) ve X,Y koordlarında 2D grafikler oluşturmak için
+
+
+
+
+
+
+
+
+
+	 

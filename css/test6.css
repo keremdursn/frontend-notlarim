@@ -1,0 +1,31 @@
+ul{
+    list-style-type:none;
+    position: fixed;
+    width: 25%;
+}
+
+ul>li{
+    padding: 15px;
+    background-color: rgb(145, 151, 151);
+    margin-left: -40px;
+}
+
+ul li:nth-child(1){
+    background-color: rgb(7, 7, 70);
+}
+
+ul>li:hover{
+    background-color: rgb(41, 41, 43);
+    transition: 0.5s;
+}
+
+ul>li>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+
+i{
+    padding-right: 10px;
+}

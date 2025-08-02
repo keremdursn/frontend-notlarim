@@ -1,0 +1,29 @@
+head , body , <ul><li> <ol>, <pre> , <br> 
+<hr>(düz uzun çizgi)
+<em> bir kısmı italik
+<strong> vurgu kalın yazı
+<u> alt çizgi
+<b> kalın yazı sadece
+<i> italik
+Link oluşturma <a href="http://gelecegiyazanlar.turkcell.com.tr">Anasayfa</a>
+Target özelliği : linkin nerde açılcağını ayarlar,
+	_blank yeni sekme
+	_self aynı sekmede
+	_parent  bir üst çerçeve
+	_top en üst çerçeve
+s
+<img src="" width="" height="" align=""/> resim yükleme
+Görselin sayfa üzerindeki konumunun belirlenmesi için align 
+border=
+alt=
+<body bgcolor="red" > arkaplan  rengi değiştirme
+<body text="red">
+<body bgcolor="red" text="#000051">
+
+    <table border="2" cellspacing="0" cellpadding="5" align="left" bgcolor="ffcbf0">
+        <caption> ÜLKELER VE NÜFUSLARI </caption>  
+        <tr>  
+            <td>AVUSTURYA </td>
+            <td>8,000,000</td>   
+        </tr>
+    </table>   

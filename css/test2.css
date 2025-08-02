@@ -1,0 +1,32 @@
+/* div p {
+    color: red;
+} */
+
+/* div>p {
+    color: red;
+} */
+
+/* div + p {
+    color: red;
+} */
+
+/* div>p {
+    color: red;
+} */
+
+/* div>p {
+    color: red;
+} */
+
+/* div>p:nth-child(3){
+    color: red;
+} */
+
+/* div>nav>p:nth-child(3){
+    color: red;
+} */
+
+.div2>nav>ul>div>li:first-child{
+    color: red;
+}
+
