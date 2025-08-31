@@ -1,0 +1,26 @@
+PROJE KLURULUMU
+
+
+pnpm create vite my-react-app --template react-ts
+
+VEYA
+
+npm create vite@latest
+
+
+tailwind
+
+npm install -D tailwindcss postcss autoprefixer
+Bu komut, Tailwind'i ve çalışması için gereken iki aracı (postcss ve autoprefixer) geliştirme bağımlılığı (-D) olarak projeye ekler.
+
+npx tailwindcss init -p
+Bu komut, proje ana dizininde tailwind.config.js ve postcss.config.js adında iki adet ayar dosyası oluşturur.
+
+
+Client-Side Routing (React Router)
+Ana Sayfa, Hakkında, Ürünler, İletişim, Kullanıcı Profili gibi... 
+
+react-router-dom kütüphanesini projemize kuracağız.
+
+npm install react-router-dom
+

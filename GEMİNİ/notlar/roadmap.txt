@@ -1,0 +1,124 @@
+Modül 0: Temel Hazırlık ve Modern JavaScript (Hafta 0 - Başlangıç)
+
+Ana Konular:
+
+let, const ve var arasındaki farklar (Scope kavramı).
+
+Arrow Functions (=>) ve this bağlamı.
+
+Destructuring (Object ve Array).
+
+Spread (...) ve Rest (...) operatörleri.
+
+Template Literals (Backtick `` ile string yazımı).
+
+Array metodları: map, filter, find, reduce. (Özellikle map hayati).
+
+Promises ve async/await ile asenkron işlemleri yönetmek.
+
+ES Modules: import ve export kullanımı.
+
+Bu Modül Sonunda Hedef: React kodunu okuduğunda "Burada ne yazıyor?" demek yerine, sentaksı akıcı bir şekilde anlayabilmek.
+
+
+
+
+
+Modül 1: React'in Temel Taşları (Hafta 1)
+Amaç: React'in düşünce yapısını kavramak. UI'ı (Arayüzü) küçük, yönetilebilir ve yeniden kullanılabilir parçalara (component) ayırmayı öğrenmek.
+
+Ana Konular:
+
+Vite ile Proje Oluşturma: Hızlı ve modern bir başlangıç.
+
+JSX: JavaScript içinde HTML yazar gibi UI oluşturmanın mantığı.
+
+Component'ler: Fonksiyonel component'ler nasıl yazılır?
+
+Props: Component'ler arası veri akışı nasıl sağlanır? (Parent'tan Child'a).
+
+State (Durum): useState hook'u ile bir component'in hafızası nasıl yönetilir?
+
+Events (Olaylar): Buton tıklaması gibi kullanıcı etkileşimleri nasıl yakalanır? (onClick, onChange vb.)
+
+Pratik Uygulama: Üzerinde adın, unvanın, profil resmin ve sosyal medya linklerin olan bir UserProfileCard component'i oluşturmak. Bu karttaki bilgiler props ile dışarıdan verilmeli.
+
+
+
+
+
+Modül 2: Dinamik Arayüzler ve Dış Dünya ile İletişim (Hafta 2)
+Amaç: Uygulamayı statiklikten kurtarıp, veriye ve koşullara göre kendini güncelleyen dinamik bir yapıya kavuşturmak.
+
+Ana Konular:
+
+Conditional Rendering: Bir koşula göre (örneğin kullanıcı giriş yapmışsa) bir elementi göstermek veya gizlemek.
+
+Listeleri Render Etmek: map metodu ile bir veri dizisini (örneğin API'den gelen ürünler) ekrana basmak. (key prop'unun önemi).
+
+Side Effects (Yan Etkiler): useEffect hook'u nedir? Ne zaman kullanılır?
+
+API İstekleri: useEffect içinde axios veya fetch kullanarak backend'den veri çekmek.
+
+Yüklenme (Loading) ve Hata (Error) Durumlarını Yönetmek: API isteği tamamlanana kadar "Yükleniyor..." mesajı, hata olursa hata mesajı göstermek.
+
+Pratik Uygulama: JSONPlaceholder gibi ücretsiz bir API kullanarak, kullanıcı listesini çeken ve ekranda listeleyen basit bir uygulama yapmak.
+
+
+
+
+
+Modül 3: Stil, Navigasyon ve Formlar (Hafta 3)
+Amaç: Uygulamayı tek bir sayfadan, gezilebilir ve kullanıcıdan veri alabilen tam teşekküllü bir yapıya dönüştürmek.
+
+Ana Konular:
+
+Styling (Stil Verme): Tailwind CSS'i projeye entegre etmek ve utility-first mantığıyla component'leri hızlıca şekillendirmek.
+
+Client-Side Routing: React Router kütüphanesi ile çok sayfalı uygulama (SPA - Single Page Application) mantığını kurmak. (Ana sayfa, Hakkında, Kullanıcı Detay sayfaları vb.)
+
+Form Yönetimi: Kullanıcıdan input alıp bu input'ları useState ile yönetmek.
+
+Form Gönderimi: Formdaki veriyi birleştirip POST isteği ile API'ye göndermek.
+
+Pratik Uygulama: Önceki kullanıcı listesi uygulamasına React Router ekleyerek, tıklandığında kullanıcının detaylarının gösterildiği bir /users/:id sayfası oluşturmak. Yeni bir kullanıcı eklemek için bir form sayfası yapmak.
+
+
+
+
+
+Modül 4: Proje ve İleri Kavramlar (Hafta 4)
+Amaç: Tüm öğrenilenleri birleştirerek, kendi backend'in ile konuşan baştan sona bir proje tamamlamak ve daha büyük uygulamalar için gereken temel kavramları öğrenmek.
+
+Ana Konular:
+
+Global State Management (Global Durum Yönetimi): Context API nedir? Neden ihtiyaç duyarız? (Prop drilling sorununa çözüm).
+
+Custom Hooks (Özel Hook'lar): Tekrar eden logiği (örneğin API istek logiği) nasıl kendi hook'umuz içine paketleriz?
+
+Proje: Kendi yazdığın Blog API veya To-Do API'nin frontend'ini baştan sona React ile yazmak. (CRUD işlemlerinin tamamı).
+
+Deployment (Yayına Alma): Biten projeyi Netlify veya Vercel gibi platformlarda ücretsiz olarak nasıl yayınlarız?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
