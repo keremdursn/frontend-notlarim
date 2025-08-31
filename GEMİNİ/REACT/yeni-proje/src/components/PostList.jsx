@@ -1,5 +1,5 @@
 import useFetch from '../hooks/useFetch';
-import { List, ListItem, Card, CardContent, Typography, CircularProgress, Alert, CardActionArea } from '@mui/material'
+import { Box, List, ListItem, Card, CardContent, Typography, CircularProgress, Alert, CardActionArea } from '@mui/material'
 import { Link as RouterLink } from 'react-router-dom'; // 1. RouterLink'i import et
 
 
